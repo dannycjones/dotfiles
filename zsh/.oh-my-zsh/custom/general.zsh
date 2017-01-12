@@ -1,2 +1,2 @@
 alias acer='ssh server.danielcarl.info'
-alias ls='ls -l'
+alias ls='ls -lG'
