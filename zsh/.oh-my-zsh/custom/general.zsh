@@ -1,2 +1,3 @@
 alias acer='ssh server.danielcarl.info'
-alias ls='ls -lG'
+alias ll='ls -lG'
+alias th='tree -aI ".git"'
