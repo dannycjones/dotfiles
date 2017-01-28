@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/danny/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="agnoster"
 
@@ -27,9 +27,12 @@ source $ZSH/oh-my-zsh.sh
 
 # Hides username when logged in as danny on localhost
 DEFAULT_USER="danny"
-
-# Chruby stuff
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-chruby ruby-2.4.0
-
-export PATH="$HOME/Library/Haskell/bin:$PATH" # For cabal installs
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+        # do nothing for now
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+        # Mac OSX
+	# Chruby stuff
+	source /usr/local/opt/chruby/share/chruby/chruby.sh
+	chruby ruby-2.4.0
+	export PATH="$HOME/Library/Haskell/bin:$PATH" # For cabal installs
+fi
