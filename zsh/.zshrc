@@ -33,6 +33,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
         # Mac OSX
 	# Chruby stuff
 	source /usr/local/opt/chruby/share/chruby/chruby.sh
-	chruby ruby-2.4.0
+	source /usr/local/share/chruby/auto.sh
 	export PATH="$HOME/Library/Haskell/bin:$PATH" # For cabal installs
 fi
+
