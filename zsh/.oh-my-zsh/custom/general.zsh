@@ -6,5 +6,3 @@ if ! type "$tree" > /dev/null; then
 	alias th='tree -aI ".git"'
 fi
 
-alias acer='ssh server.danielcarl.info'
-
