@@ -1,5 +1,19 @@
 # This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
 	name = Daniel Carl Jones
-	email = dcjones1@sheffield.ac.uk
+	email = danny@danielcarl.info
+[core]
+	excludesfile = /Users/danny/.gitignore_global
+[commit]
+	gpgsign = true
+
+[github]
+	user = dannycjones
+[ghi]
+	token = !security find-internet-password -a dannycjones -s github.com -l 'ghi token' -w
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
