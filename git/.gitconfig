@@ -2,6 +2,7 @@
 [user]
 	name = Daniel Carl Jones
 	email = danny@danielcarl.info
+	signingkey = 340FB7DF2202D96E
 [core]
 	excludesfile = /Users/danny/.gitignore_global
 [commit]
@@ -17,3 +18,7 @@
 	process = git-lfs filter-process
 	required = true
 
+[format]
+	pretty = oneline
+[log]
+	abbrevCommit = true
