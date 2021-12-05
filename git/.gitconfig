@@ -22,3 +22,5 @@
 	pretty = oneline
 [log]
 	abbrevCommit = true
+[init]
+	defaultBranch = main
