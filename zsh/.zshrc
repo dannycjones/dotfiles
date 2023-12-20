@@ -68,3 +68,7 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+attach() {
+    /usr/bin/ssh -t $1 "tmux -u -2 -CC new-session -A -s default-session"
+}
+
