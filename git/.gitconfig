@@ -6,7 +6,7 @@
 [core]
 	excludesfile = /Users/danny/.gitignore_global
 [commit]
-	gpgsign = true
+	gpgsign = false
 
 [github]
 	user = dannycjones
