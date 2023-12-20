@@ -39,8 +39,8 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 	export PATH="$HOME/Library/Haskell/bin:$PATH" # For cabal installs
 fi
 
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+export NVM_DIR=$HOME/.nvm
+. $(brew --prefix nvm)/nvm.sh
 
 # place this after nvm initialization!
 autoload -U add-zsh-hook
