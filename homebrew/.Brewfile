@@ -16,6 +16,7 @@ brew "stow"
 brew "tree"
 brew "wget"
 brew "zsh"
+brew "zsh-autosuggestions"
 
 brew "mas"
 mas "Amphetamine", id: 937984704
