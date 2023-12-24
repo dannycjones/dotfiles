@@ -1,8 +1,6 @@
 [user]
 	name = Daniel Carl Jones
 	email = danny@danielcarl.info
-[core]
-	excludesfile = /Users/danny/.gitignore_global
 [format]
 	pretty = oneline
 [log]
