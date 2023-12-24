@@ -7,11 +7,6 @@
 	excludesfile = /Users/danny/.gitignore_global
 [commit]
 	gpgsign = false
-
-[github]
-	user = dannycjones
-[ghi]
-	token = !security find-internet-password -a dannycjones -s github.com -l 'ghi token' -w
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
