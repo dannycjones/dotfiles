@@ -1,5 +1,7 @@
 [include]
 	path = ~/.config/git/gitconfig-user-per
+[include]
+	path = ~/.config/git/gitconfig-deltadiff
 
 [format]
 	pretty = oneline
