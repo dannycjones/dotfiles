@@ -1,6 +1,6 @@
-[user]
-	name = Daniel Carl Jones
-	email = danny@danielcarl.info
+[include]
+	path = ~/.config/git/gitconfig-user-per
+
 [format]
 	pretty = oneline
 [log]
