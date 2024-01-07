@@ -48,6 +48,7 @@ brew "restic"
 brew "rustup-init"
 brew "ssh-copy-id"
 brew "stress"
+brew "speedtest-cli"
 cask "spotify"
 brew "syncthing", restart_service: true
 brew "tmux"
