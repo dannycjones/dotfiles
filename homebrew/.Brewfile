@@ -8,6 +8,7 @@ tap "dannycjones/tap"
 
 cask "font-meslo-lg-nerd-font"
 cask "firefox"
+cask "google-chrome"
 brew "fzf"
 cask "iterm2"
 cask "secretive"
