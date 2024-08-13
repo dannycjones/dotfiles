@@ -28,6 +28,7 @@ mas "1Password", id: 443987910
 brew "ansible"
 brew "awscli"
 cask "backblaze"
+brew "boxes"
 brew "cmatrix"
 brew "coreutils"
 cask "discord"
