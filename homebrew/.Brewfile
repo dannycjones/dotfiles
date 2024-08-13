@@ -17,6 +17,7 @@ brew "tree"
 brew "wget"
 brew "zsh"
 brew "zsh-autosuggestions"
+cask "rectangle" # Window snapping
 
 brew "mas"
 mas "Amphetamine", id: 937984704
