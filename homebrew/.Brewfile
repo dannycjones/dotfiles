@@ -52,6 +52,7 @@ brew "stress"
 brew "speedtest-cli"
 cask "spotify"
 brew "syncthing", restart_service: true
+cask "tailscale"
 brew "tmux"
 cask "tor-browser"
 cask "transmission"
