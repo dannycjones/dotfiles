@@ -9,3 +9,6 @@
 	abbrevCommit = true
 [init]
 	defaultBranch = main
+[pager]
+	log = true # always page log
+
