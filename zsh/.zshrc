@@ -7,3 +7,6 @@ attach() {
 source <(fzf --zsh)
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+. $(brew --prefix asdf)/libexec/asdf.sh
+

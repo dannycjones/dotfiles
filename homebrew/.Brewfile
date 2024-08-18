@@ -26,6 +26,7 @@ mas "1Password", id: 443987910
 # Misc packages
 
 brew "ansible"
+brew "asdf"
 brew "awscli"
 cask "backblaze"
 brew "boxes"
