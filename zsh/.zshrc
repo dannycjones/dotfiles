@@ -4,9 +4,16 @@ attach() {
     ssh -t $1 "tmux -u -2 -CC new-session -A -s default-session"
 }
 
-source <(fzf --zsh)
+if [[ $(uname) == "Darwin" ]]; then
+    source <(fzf --zsh)
+else
+    # Some distributions don't include the new fzf init script (added v0.48.0+), handle it the old way
+    source /usr/share/doc/fzf/examples/key-bindings.zsh
+    source /usr/share/doc/fzf/examples/completion.zsh
+fi
 
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-. $(brew --prefix asdf)/libexec/asdf.sh
+if [[ $(uname) == "Darwin" ]]; then
+    source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+    . $(brew --prefix asdf)/libexec/asdf.sh
+fi
 
