@@ -63,6 +63,5 @@ cask "vlc"
 brew "watch"
 cask "webtorrent"
 cask "whatsapp"
-mas "Wireguard", id: 1451685025
 brew "yt-dlp"
 brew "yubico-piv-tool"
