@@ -22,6 +22,7 @@ cask "rectangle" # Window snapping
 brew "mas"
 mas "Amphetamine", id: 937984704
 mas "1Password", id: 443987910
+mas "Bitwarden", id: 1352778147
 
 # Misc packages
 
