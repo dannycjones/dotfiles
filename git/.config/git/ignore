@@ -39,3 +39,6 @@ Thumbs.db
 
 /.idea/
 
+.env
+.envrc
+
