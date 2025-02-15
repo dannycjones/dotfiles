@@ -53,6 +53,7 @@ brew "ssh-copy-id"
 brew "stress"
 brew "speedtest-cli"
 cask "spotify"
+cask "steam"
 brew "syncthing", restart_service: true
 cask "tailscale"
 brew "tmux"
