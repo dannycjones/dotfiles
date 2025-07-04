@@ -55,7 +55,7 @@ brew "speedtest-cli"
 cask "spotify"
 cask "steam"
 brew "syncthing", restart_service: true
-cask "tailscale"
+cask "tailscale-app"
 brew "tmux"
 cask "tor-browser"
 cask "transmission"
