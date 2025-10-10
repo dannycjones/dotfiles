@@ -69,4 +69,8 @@ brew "yt-dlp"
 brew "yubico-piv-tool"
 brew "ykman"
 brew "rsync"
+brew "colima" # VM for docker
+brew "docker"
+brew "docker-buildx"
+brew "docker-compose"
 brew "iproute2mac"
