@@ -36,6 +36,7 @@ end
 
 # Misc packages
 
+brew "atuin"
 brew "ansible" if personal_laptop
 brew "ansible-lint" if personal_laptop
 brew "asdf"
