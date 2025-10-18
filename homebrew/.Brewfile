@@ -85,7 +85,7 @@ cask "visual-studio-code"
 cask "vlc"
 brew "watch"
 cask "webtorrent" if personal_laptop
-cask "whatsapp"
+cask "whatsapp" if personal_laptop
 brew "yt-dlp" if personal_laptop
 brew "yubico-piv-tool"
 brew "ykman"
@@ -93,7 +93,7 @@ brew "rsync"
 brew "colima" # VM for docker
 brew "docker"
 brew "docker-buildx"
-brew "docker-compose"
+brew "docker-compose" if personal_laptop
 brew "cdktf" if personal_laptop
 brew "iproute2mac"
 cask "zoom"
