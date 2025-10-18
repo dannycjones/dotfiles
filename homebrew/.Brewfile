@@ -49,8 +49,8 @@ cask "discord" if personal_laptop
 brew "figlet"
 brew "ffmpeg"
 brew "git"
-brew "gh"
 brew "git-delta"
+brew "gh"
 brew "gnupg"
 brew "helm"
 brew "hugo" if personal_laptop
