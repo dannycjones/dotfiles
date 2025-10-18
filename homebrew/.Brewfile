@@ -51,6 +51,7 @@ brew "ffmpeg"
 brew "git"
 brew "gh"
 brew "git-delta"
+brew "gnupg"
 brew "hugo" if personal_laptop
 brew "htop"
 brew "iperf3"
