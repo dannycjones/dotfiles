@@ -52,10 +52,12 @@ brew "git"
 brew "gh"
 brew "git-delta"
 brew "gnupg"
+brew "helm"
 brew "hugo" if personal_laptop
 brew "htop"
 brew "iperf3"
 brew "jq"
+brew "kubectl"
 brew "make"
 cask "minecraft" if personal_laptop
 brew "ncdu"
