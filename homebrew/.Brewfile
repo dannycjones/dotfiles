@@ -59,6 +59,7 @@ brew "htop"
 brew "iperf3"
 brew "jq"
 brew "kubectl"
+brew "lolcat"
 brew "make"
 cask "minecraft" if personal_laptop
 brew "ncdu"
