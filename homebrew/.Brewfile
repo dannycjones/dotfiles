@@ -67,6 +67,7 @@ brew "pkg-config"
 brew "python3"
 brew "restic" if personal_laptop
 brew "creativeprojects/tap/resticprofile" if personal_laptop
+brew "ripgrep"
 brew "rustup"
 cask "signal" if personal_laptop
 brew "ssh-copy-id"
