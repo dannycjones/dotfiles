@@ -80,7 +80,7 @@ cask "tailscale-app" if personal_laptop
 brew "terraform"
 brew "tmux"
 cask "tor-browser" if personal_laptop
-cask "transmission"
+cask "transmission" if personal_laptop
 brew "uv"
 cask "visual-studio-code"
 cask "vlc"
