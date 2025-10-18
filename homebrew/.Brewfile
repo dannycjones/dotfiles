@@ -86,6 +86,7 @@ cask "vlc"
 brew "watch"
 cask "webtorrent" if personal_laptop
 cask "whatsapp" if personal_laptop
+brew "yamllint"
 brew "yt-dlp" if personal_laptop
 brew "yubico-piv-tool"
 brew "ykman"
