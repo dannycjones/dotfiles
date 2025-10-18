@@ -52,6 +52,7 @@ brew "git"
 brew "git-delta"
 brew "gh"
 brew "gnupg"
+brew "golang"
 brew "helm"
 brew "hugo" if personal_laptop
 brew "htop"
