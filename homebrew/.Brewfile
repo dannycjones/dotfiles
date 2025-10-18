@@ -44,6 +44,7 @@ cask "backblaze" if personal_laptop
 brew "boxes"
 brew "cmatrix"
 brew "coreutils"
+brew "direnv"
 cask "discord" if personal_laptop
 brew "figlet"
 brew "ffmpeg"
