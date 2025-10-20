@@ -1,14 +1,12 @@
 eval "$(starship init zsh)"
-eval "$(atuin init zsh)"
+eval "$(atuin init zsh --disable-up-arrow)"
 eval "$(direnv hook zsh)"
 
 attach() {
     ssh -t $1 "tmux -u -2 -CC new-session -A -s default-session"
 }
 
-if [[ $(uname) == "Darwin" ]]; then
-    source <(fzf --zsh)
-else
+if ! [[ $(uname) == "Darwin" ]]; then
     # Some distributions don't include the new fzf init script (added v0.48.0+), handle it the old way
     source /usr/share/doc/fzf/examples/key-bindings.zsh
     source /usr/share/doc/fzf/examples/completion.zsh
