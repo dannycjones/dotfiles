@@ -94,6 +94,7 @@ brew "yamllint"
 brew "yt-dlp" if personal_laptop
 brew "yubico-piv-tool"
 brew "ykman"
+brew "yq"
 brew "rsync"
 brew "colima" # VM for docker
 brew "docker"
