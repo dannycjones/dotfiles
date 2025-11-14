@@ -18,3 +18,5 @@
 [submodule]
 	recurse = true
 
+[alias]
+	root-dir = rev-parse --show-toplevel
