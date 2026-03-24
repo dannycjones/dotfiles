@@ -51,6 +51,7 @@ brew "coreutils"
 cask "datagrip" if work_laptop
 brew "direnv"
 cask "discord" if personal_laptop
+brew "eksctl" if work_laptop
 brew "figlet"
 brew "ffmpeg"
 brew "git"
