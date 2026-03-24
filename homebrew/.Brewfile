@@ -10,6 +10,8 @@ tap "homebrew/services" if personal_laptop
 tap "dannycjones/tap"
 tap "creativeprojects/tap" if personal_laptop # resticprofile
 
+tap "hashicorp/tap"
+
 # Core Packages (wanted ASAP)
 
 cask "font-meslo-lg-nerd-font"
@@ -85,7 +87,7 @@ cask "spotify"
 cask "steam"
 brew "syncthing", restart_service: true if personal_laptop
 cask "tailscale-app" if personal_laptop
-brew "terraform"
+brew "hashicorp/tap/terraform"
 brew "tmux"
 cask "tor-browser" if personal_laptop
 cask "transmission" if personal_laptop
