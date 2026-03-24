@@ -43,8 +43,10 @@ brew "asdf"
 brew "awscli"
 cask "backblaze" if personal_laptop
 brew "boxes"
+brew "cmake" if work_laptop
 brew "cmatrix"
 brew "coreutils"
+cask "datagrip" if work_laptop
 brew "direnv"
 cask "discord" if personal_laptop
 brew "figlet"
@@ -57,6 +59,7 @@ brew "golang"
 brew "helm"
 brew "hugo" if personal_laptop
 brew "htop"
+cask "intellij-idea" if work_laptop
 brew "iperf3"
 brew "jq"
 brew "kubectl"
@@ -70,6 +73,7 @@ brew "parquet-cli" if work_laptop
 brew "pkg-config"
 brew "python3"
 brew "restic" if personal_laptop
+cask "rustrover" if work_laptop
 brew "creativeprojects/tap/resticprofile" if personal_laptop
 brew "ripgrep"
 brew "rustup"
@@ -113,3 +117,4 @@ if personal_laptop
   cask "insta360-studio"
   cask "openmtp"
 end
+
