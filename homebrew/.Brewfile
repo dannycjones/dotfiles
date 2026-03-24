@@ -66,6 +66,7 @@ cask "minecraft" if personal_laptop
 brew "ncdu"
 cask "nordvpn" if personal_laptop
 brew "openssh"
+brew "parquet-cli" if work_laptop
 brew "pkg-config"
 brew "python3"
 brew "restic" if personal_laptop
