@@ -5,3 +5,5 @@ fi
 
 export CLICOLOR=true
 
+export AWS_EC2_METADATA_DISABLED=true
+
