@@ -104,6 +104,7 @@ brew "yubico-piv-tool"
 brew "ykman"
 brew "yq"
 brew "rsync"
+brew "zola" if personal_laptop
 brew "colima" # VM for docker
 brew "docker"
 brew "docker-buildx"
