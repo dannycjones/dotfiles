@@ -108,7 +108,7 @@ brew "zola" if personal_laptop
 brew "colima" # VM for docker
 brew "docker"
 brew "docker-buildx"
-brew "docker-compose" if personal_laptop
+brew "docker-compose"
 brew "cdktf" if personal_laptop
 brew "iproute2mac"
 cask "zoom"
