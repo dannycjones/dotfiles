@@ -54,6 +54,7 @@ cask "discord" if personal_laptop
 brew "eksctl" if work_laptop
 brew "figlet"
 brew "ffmpeg"
+brew "gemini-cli" if personal_laptop
 brew "git"
 brew "git-delta"
 brew "gh"
