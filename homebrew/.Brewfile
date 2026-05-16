@@ -75,6 +75,7 @@ brew "openssh"
 brew "parquet-cli" if work_laptop
 brew "pkg-config"
 brew "python3"
+brew "pipx"
 brew "restic" if personal_laptop
 cask "rustrover" if work_laptop
 brew "creativeprojects/tap/resticprofile" if personal_laptop
