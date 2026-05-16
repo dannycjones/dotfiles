@@ -122,5 +122,6 @@ if personal_laptop
   cask "inkstitch"
   cask "insta360-studio"
   cask "openmtp"
+  cask "freecad"
 end
 
