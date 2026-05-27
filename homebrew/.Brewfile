@@ -85,7 +85,6 @@ brew "rustup"
 cask "signal" if personal_laptop
 brew "ssh-copy-id"
 brew "stress"
-brew "speedtest-cli"
 cask "spotify"
 cask "steam"
 brew "syncthing", restart_service: true if personal_laptop
