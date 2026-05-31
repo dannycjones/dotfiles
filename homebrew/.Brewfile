@@ -4,7 +4,6 @@ hostname = Socket.gethostname
 personal_laptop = hostname == "coniston"
 work_laptop = !personal_laptop
 
-tap "homebrew/bundle"
 tap "homebrew/services" if personal_laptop
 
 tap "dannycjones/tap"
