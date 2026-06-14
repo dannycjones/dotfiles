@@ -4,8 +4,6 @@ hostname = Socket.gethostname
 personal_laptop = hostname == "coniston"
 work_laptop = !personal_laptop
 
-tap "homebrew/services" if personal_laptop
-
 tap "dannycjones/tap"
 tap "creativeprojects/tap" if personal_laptop # resticprofile
 
