@@ -42,7 +42,7 @@ brew "asdf"
 brew "awscli"
 cask "backblaze" if personal_laptop
 brew "boxes"
-brew "cmake" if work_laptop
+brew "cmake"
 brew "cmatrix"
 brew "coreutils"
 cask "datagrip" if work_laptop
